@@ -84,7 +84,9 @@ git commit -m "add new index.html with Hello World text"
 git status
 git add .
 git commit -m "modified index.html file, add img in to"
-git push
+git push -u origin gh-pages
+
+
 
 
 
