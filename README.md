@@ -1,6 +1,7 @@
 # 6-vcs-advanced
-##Tsk 1
 
+##Tsk 1
+--------
 git clone https://github.com/r3dmar/git-advanced-hw2.git
 cd /c/Users/admin/git-advanced-hw2
 git init
@@ -36,14 +37,13 @@ git branch -d architecture
 
 
 ## Tsk2
-
+-------
 git branch rb
 touch index.css
 git add .
- git commit -m "add new index.css file"
+git commit -m "add new index.css file"
 git add .
- git commit -m "add new text-info in to index.css"
-
+git commit -m "add new text-info in to index.css"
 git branch
 git checkout rb
 git branch
@@ -56,8 +56,8 @@ git merge rb
 git branch -d rb
 
 
-##Tsk 3
-
+## Tsk 3
+--------------
 mkdir img
 (then add texture.img)
 git add .
@@ -68,28 +68,28 @@ git commit -m "change texture.img"
 git tag -a v1.0 -m "my version 1.0"
 git push
 
-##Tsk 4
-
+## Tsk 4
+-------------
 git submodule add https://github.com/r3dmar/ihover.git ihover
 git status
 gitcommit -m "added new submodul ihover (css features)"
 git push
 
-##Tsk 5
-
+## Tsk 5
+-------------------
 git checkout -b gh-pages
 echo "Hello World" > index.html
 git status
 git add .
-git commit -m "add new index.html with Hello World text"
-	in to index.html add pic texture.jpj
+git commit -m "add new index.html with Hello World text
+	in to index.html add pic texture.jpj"
 git status
 git add .
 git commit -m "modified index.html file, add img in to"
 git push -u origin gh-pages
 
-##Task 6
-
+## Task 6
+--------------
 echo "Hello my little friend" >> test.txt
 git status
 git add .
@@ -111,6 +111,6 @@ git add .
 git commit -m "merging confict files"
 git status
 git push
-
+-------------------
 
 
